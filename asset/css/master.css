@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    width: 90%;
+    padding: 30px 0;
+    /* border: 5px solid red; */
+}
+
+main>section {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+main>section>h1 {
+    font-size: 30px;
+    color: rgb(94, 94, 94);
+}
+
+main>div {
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+main>div>ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+main>div>ul>li {
+    /* border: 2px solid black; */
+    width: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    flex-grow: 5;
+    transition: 1s;
+    
+}
+
+
+main>div>ul>li:nth-of-type(1) {
+    background-image: url('../img/1.avif');
+}
+main>div>ul>li:nth-of-type(1):hover {
+    width: 60%;
+}
+main>div>ul>li:nth-of-type(2) {
+    background-image: url('../img/2.avif');
+}
+main>div>ul>li:nth-of-type(2):hover {
+    width: 60%;
+}
+main>div>ul>li:nth-of-type(3) {
+    background-image: url('../img/3.avif');
+}
+main>div>ul>li:nth-of-type(3):hover {
+    width: 60%;
+}
+main>div>ul>li:nth-of-type(4) {
+    background-image: url('../img/4.avif');
+}
+main>div>ul>li:nth-of-type(4):hover {
+    width: 60%;
+}
+main>div>ul>li:nth-of-type(5) {
+    background-image: url('../img/5.avif');
+}
+main>div>ul>li:nth-of-type(5):hover {
+    width: 60%;
+}
